@@ -1,0 +1,29 @@
+:root {
+    --neutral-colorswhite: rgba(255, 255, 255, 1);
+    --neutral-colorscolor-400: rgba(242, 241, 250, 1);
+    --text-single-200-regular-font-family: "DM Sans", Helvetica;
+    --text-single-200-regular-font-weight: 400;
+    --text-single-200-regular-font-size: 18px;
+    --text-single-200-regular-letter-spacing: 0px;
+    --text-single-200-regular-line-height: 18px;
+    --text-single-200-regular-font-style: normal;
+    --text-single-100-bold-font-family: "DM Sans", Helvetica;
+    --text-single-100-bold-font-weight: 700;
+    --text-single-100-bold-font-size: 16px;
+    --text-single-100-bold-letter-spacing: 0px;
+    --text-single-100-bold-line-height: 18px;
+    --text-single-100-bold-font-style: normal;
+    --text-single-100-regular-font-family: "DM Sans", Helvetica;
+    --text-single-100-regular-font-weight: 400;
+    --text-single-100-regular-font-size: 16px;
+    --text-single-100-regular-letter-spacing: 0px;
+    --text-single-100-regular-line-height: 18px;
+    --text-single-100-regular-font-style: normal;
+    --headings-h3-font-family: "DM Sans", Helvetica;
+    --headings-h3-font-weight: 700;
+    --headings-h3-font-size: 24px;
+    --headings-h3-letter-spacing: 0px;
+    --headings-h3-line-height: 34px;
+    --headings-h3-font-style: normal;
+  }
+  
