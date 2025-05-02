@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGJJ7N65V6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LGJJ7N65V6');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Medios Interactivos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contáctate con nosotros para más información sobre la carrera de Medios Interactivos." />
+  <link rel="preload" as="image" href="imagenes/Contact.webp" />
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="imagenes/Clip path group 1.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
 </head>
 
 <body class="text-white borde">
@@ -22,7 +38,7 @@
     <!-- (tu navbar aquí, sin cambios) -->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <div class="container position-relative">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-label="Abrir menú de navegación">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarMenu">
@@ -36,7 +52,7 @@
             </div>
           </div>
 
-          <a class="navbar-brand position-absolute start-50 translate-middle-x" href="#">
+          <a class="navbar-brand position-absolute start-50 translate-middle-x" href="../index.html">
             <img src="imagenes/Clip path group.svg" alt="Logo" style="max-height: 50px;" class="img-fluid" />
           </a>
         </div>
@@ -46,28 +62,44 @@
 
   
 
+  <main>
   <!-- Formulario centrado -->
-  <div class="container h-100 position-relative wow animate__animated animate__fadeIn animate__delay-0-3s" style="z-index: 5;">
-    <div class="row justify-content-end align-items-center min-vh-100">
-      <div class="col-12 col-md-6 offset-md-6 px-4 py-5 centrarform">
+    <div class="container h-100 position-relative wow animate__animated animate__fadeIn animate__delay-0-3s" style="z-index: 5;">
+      <div class="row justify-content-end align-items-center min-vh-100">
+        <div class="col-12 col-md-6 offset-md-6 px-4 py-5 centrarform">
 
-        <div class="engage-hub-form-embed" id="eh_form_6319723074813952" data-id="6319723074813952"> </div>
-<script type="text/javascript" >
-var EhAPI = EhAPI || {}; EhAPI.after_load = function(){
-EhAPI.set_account('j5hacg2gmiib9tupbtobsent79', 'gmailfvgu');
-EhAPI.execute('rules');};(function(d,s,f) {
-var sc=document.createElement(s);sc.type='text/javascript';
-sc.async=true;sc.src=f;var m=document.getElementsByTagName(s)[0];
-m.parentNode.insertBefore(sc,m);
-})(document, 'script', '//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v' + new Date().getHours());
-</script>
+          <div class="engage-hub-form-embed" id="eh_form_6319723074813952" data-id="6319723074813952"> </div>
+          <script type="text/javascript" >
+          var EhAPI = EhAPI || {}; EhAPI.after_load = function(){
+          EhAPI.set_account('j5hacg2gmiib9tupbtobsent79', 'gmailfvgu');
+          EhAPI.execute('rules');};(function(d,s,f) {
+          var sc=document.createElement(s);sc.type='text/javascript';
+          sc.async=true;sc.src=f;var m=document.getElementsByTagName(s)[0];
+          m.parentNode.insertBefore(sc,m);
+          })(document, 'script', '//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v' + new Date().getHours());
+          </script>
 
+          <script>
+            // Esperar a que el iframe cargue y agregarle un título
+            window.addEventListener('load', () => {
+              const observer = new MutationObserver(() => {
+                const iframe = document.querySelector('iframe[src*="ehform"]');
+                if (iframe && !iframe.title) {
+                  iframe.title = "Formulario de contacto para Medios Interactivos";
+                  observer.disconnect();
+                }
+              });
+              observer.observe(document.body, { childList: true, subtree: true });
+            });
+          </script>
+
+        </div>
       </div>
     </div>
-  </div>
-</section>
- 
-<br> <br> <br> <br> <br> <br> <br> <br>
+  </section>
+  
+  <br> <br> <br> <br> <br> <br> <br> <br>
+  </main>
   <!-- FOOTER -->
   <footer class="py-4 bg-dark text-white-50">
     <div class="container">
@@ -86,16 +118,16 @@ m.parentNode.insertBefore(sc,m);
               class="col-12 col-md-auto text-center order-3 order-md-3"
             >
               <a href="https://www.facebook.com/MediosInteractivosUSFQ" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/Facebook.png" alt="Facebook" style="height: 40px;" />
+                <img src="imagenes/Facebook.webp" alt="Facebook" style="height: 40px;" />
               </a>
               <a href="https://x.com/USFQ_Ecuador" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/Twitter.png" alt="Twitter" style="height: 40px;" />
+                <img src="imagenes/Twitter.webp" alt="Twitter" style="height: 40px;" />
               </a>
               <a href="https://www.instagram.com/interactivosusfq/" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/Instagram.png" alt="Instagram" style="height: 40px;" />
+                <img src="imagenes/Instagram.webp" alt="Instagram" style="height: 40px;" />
               </a>
               <a href="https://www.linkedin.com/school/usfq/posts/?feedView=all" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/LinkedIn.png" alt="LinkedIn" style="height: 40px;" />
+                <img src="imagenes/LinkedIn.webp" alt="LinkedIn" style="height: 40px;" />
               </a>
               
             </div>

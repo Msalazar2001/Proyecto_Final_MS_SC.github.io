@@ -1,8 +1,17 @@
-<!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGJJ7N65V6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LGJJ7N65V6');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gracias por formar parte de la carrera de Medios Interactivos." />
     <title>Medios Interactivos</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -10,8 +19,11 @@
     />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imagenes/Clip path group 1.svg">
-    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
   </head>
 
   <body class="text-white borde">
@@ -19,11 +31,11 @@
     class="hero-section position-relative wow animate__animated animate__fadeIn animate__slow"
     style="
       height: 100vh;
-      background: url('imagenes/Diseño\ sin\ título\ \(2\)\ 1.png') center/cover no-repeat;
+      background: url('imagenes/Diseño\ sin\ título\ \(2\)\ 1.webp') center/cover no-repeat;
       border-radius: 20px;
     "
   >
-    <header class="position-absolute top-0 start-0 w-100">
+    <header class="position-absolute top-0 start-0 w-100 ">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <div class="container position-relative">
               <button
@@ -63,7 +75,7 @@
           
               <a
                 class="navbar-brand position-absolute start-50 translate-middle-x"
-                href="#"
+                href="../index.html"
                 style="z-index: 1100;"
               >
                 <img
@@ -85,7 +97,6 @@
   </h1>
   <p style="font-size: 24px;">No te arrepentirás. <br>
     ¡Que tu creatividad explote al máximo!</p>
-  
 </div>
   </section>
 <br><br><br><br><br><br><br><br><br>
@@ -104,19 +115,19 @@
               >
               Mientras tanto...              </h2>
               <p class="mb-4">
-                Comparte nuestra página web a un amigo, y obtén un curso gratuito de Unity y desarrollo de videojuegos  de parte de la carrera.
+                Comparte nuestra página web a un amigo, y obtén un curso gratuito de Unity y desarrollo de videojuegos de parte de la carrera
               </p>
               <div class="d-flex flex-row gap-3 justify-content-center justify-content-md-start">
-                <a href="#" class="btn btn-gradient rounded-pill btn-responsive">Compartir Ahora</a>
+                <a href="#" class="btn btn-gradient rounded-pill btn-responsive">¡Obvio que si!</a>
               </div>
             </div>
       
             <div class="col-12 col-md-6 wow animate__animated animate__fadeIn animate__slow">
-              <div class="position-relative ">
+              <div class="position-relative">
                 <img
-                  src="imagenes/unity.png"
+                  src="imagenes/unity.webp"
                   alt=""
-                  class="img-fluid mb-3 "
+                  class="img-fluid mb-3"
                 />
               </div>
             </div>
@@ -126,7 +137,8 @@
 
   <br><br><br><br><br><br><br>
 
-    <footer class="py-4 bg-dark text-white-50 wow animate__animated animate__fadeIn animate__slow">
+    <footer class="py-4 bg-dark text-white-50 wow animate__animated animate__fadeIn animate__slow
+    ">
         <div class="container">
           <div class="row align-items-center">
             <div
@@ -160,16 +172,16 @@
               class="col-12 col-md-auto text-center order-3 order-md-3"
             >
               <a href="https://www.facebook.com/MediosInteractivosUSFQ" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/Facebook.png" alt="Facebook" style="height: 40px;" />
+                <img src="imagenes/Facebook.webp" alt="Facebook" style="height: 40px;" />
               </a>
               <a href="https://x.com/USFQ_Ecuador" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/Twitter.png" alt="Twitter" style="height: 40px;" />
+                <img src="imagenes/Twitter.webp" alt="Twitter" style="height: 40px;" />
               </a>
               <a href="https://www.instagram.com/interactivosusfq/" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/Instagram.png" alt="Instagram" style="height: 40px;" />
+                <img src="imagenes/Instagram.webp" alt="Instagram" style="height: 40px;" />
               </a>
               <a href="https://www.linkedin.com/school/usfq/posts/?feedView=all" target="_blank" style="margin: 0 8px; text-decoration: none;">
-                <img src="imagenes/LinkedIn.png" alt="LinkedIn" style="height: 40px;" />
+                <img src="imagenes/LinkedIn.webp" alt="LinkedIn" style="height: 40px;" />
               </a>
               
             </div>
@@ -186,6 +198,28 @@
       </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  new WOW({
+    boxClass:     'wow',      // clase que activa wow.js
+    animateClass: 'animate__animated',
+    offset:       0,
+    mobile:       true,
+    live:         true,
+    resetAnimation: true      // 🔁 habilita repetir animación
+  }).init();
+</script>
+<script>
+  document.querySelectorAll('.wow').forEach((el) => {
+    el.addEventListener('animationend', () => {
+      el.classList.remove('animate__animated', 'animate__fadeIn');
+      void el.offsetWidth; // Forzar reflow
+      el.classList.add('animate__animated', 'animate__fadeIn');
+    });
+  });
+</script>
   </body>
 </html>
